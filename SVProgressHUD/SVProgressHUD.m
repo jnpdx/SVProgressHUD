@@ -1106,7 +1106,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
         }
         
         if(!_indefiniteAnimatedView){
-            _indefiniteAnimatedView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+            _indefiniteAnimatedView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleLarge];
         }
         
         // Update styling
